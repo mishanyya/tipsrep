@@ -6,7 +6,5 @@
 /index.php
 *.min.css
 *.min.js
-/wp-content/*
-!/template/
 ~
 
