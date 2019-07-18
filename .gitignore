@@ -8,8 +8,8 @@
 #файлы базы данных
 .sql
 #в Wordpress, в принципе, можно блокировать все, кроме папки с шаблоном, графических файлов и расширений css и js библиотек  
-*
-!*/wp-content/themes/template
+/*
+!/*/wp-content/themes/template/*
 *.min.css
 *.min.js
 
