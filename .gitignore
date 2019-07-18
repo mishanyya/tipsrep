@@ -1,8 +1,12 @@
 #Должны игнорироваться:
 #в Wordpress, в принципе, можно блокировать все, кроме папки с шаблоном, графических файлов и расширений css и js библиотек  
-*
-!/wp-content/themes/template/*
+/wp-admin/*
+/wp-includes/*
+/wp-*.php
+/index.php
 *.min.css
 *.min.js
+/wp-content/*
+!/wp-content/themes/template/*
 
 
