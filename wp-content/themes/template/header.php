@@ -12,9 +12,26 @@
 	wp_head();
 ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="yandex-verification" content="a81500e6ab40bd89" />
+<meta name="google-site-verification" content="mbJ8ojZIgQaUNUpTt0zPe-scIxLIx-dAzqZB3cZcJkA" />
+<meta name='wmail-verification' content='01635205c27388429d5f30b570452069' />
+
 </head>
 <body class="">
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
+	   ym(55851868, "init", {
+	        clickmap:true,
+	        trackLinks:true,
+	        accurateTrackBounce:true
+	   });
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/55851868" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
 <div class="container bg-light border-bottom my-3">
 
 <div class="d-none d-xl-block"><!--начало блока для больших экранов,это экран ноутбука или компьютера-->
@@ -52,15 +69,15 @@ bloginfo( 'description' );
 <?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div>
 
-  <div class="col-xs-6 col-sm-7 col-md-8 col-lg-9 col-xl-10">  
+  <div class="col-xs-6 col-sm-7 col-md-8 col-lg-9 col-xl-10">
 <h1 class="text-center text-danger">
 <?php
 bloginfo( 'name' );
 ?>...
 </h1>
   </div>
-  
-  
+
+
 </nav>
 
 </div><!--конец блока для маленьких экранов-->
@@ -71,7 +88,7 @@ bloginfo( 'name' );
 
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		
+
 
 <div class="d-none d-xl-block"><!--начало блока для больших экранов,это экран ноутбука или компьютера-->
 	<?php
@@ -118,7 +135,7 @@ bloginfo( 'name' );
 
 
 
-	
+
 </div>
 
 	</div>
