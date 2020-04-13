@@ -1,0 +1,13 @@
+<script>
+
+function getsize(element){
+var t=document.querySelector(element).getBoundingClientRect().top;
+var b=document.querySelector(element).getBoundingClientRect().bottom;
+var h=b-t;
+var r=document.querySelector(element).getBoundingClientRect().right;
+var l=document.querySelector(element).getBoundingClientRect().left;
+var w=r-l;
+alert('Высота элемента='+h+' Ширина элемента='+w);
+}
+getsize('h2');
+</script>

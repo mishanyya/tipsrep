@@ -1,0 +1,14 @@
+<style>
+
+
+#block{
+width: 200px;
+height: 100px;
+position: fixed;
+background-color: red;
+left: 150px;
+top: 300px;
+cursor: pointer;
+}
+
+</style>
