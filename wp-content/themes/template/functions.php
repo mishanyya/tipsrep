@@ -138,6 +138,4 @@ add_filter( 'document_title_parts', function( $parts ){
 		unset($parts['site']);
 	return $parts;
 });
-
-
 ?>

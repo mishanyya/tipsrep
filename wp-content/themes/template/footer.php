@@ -5,7 +5,7 @@
 		<?php if ( is_active_sidebar( 'bottom_side' ) ) : ?>
 			<div id="bottom-side-1" class="bg-success"><!--В этот <div> помещается сайдбар, class и id можно установить по желанию-->
 						<?php dynamic_sidebar( 'bottom_side' ); ?><!--В скобки помещается id сайдбара из functions.php-->
-			</div>
+						</div>
 		<?php endif; ?>
 
 

@@ -8,6 +8,9 @@
 
 <head>
 
+	
+
+
 <?php
 	wp_head();
 ?>
