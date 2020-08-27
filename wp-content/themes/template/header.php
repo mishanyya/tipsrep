@@ -8,7 +8,7 @@
 
 <head>
 
-	
+
 
 
 <?php
@@ -20,6 +20,7 @@
 <meta name='wmail-verification' content='506545f4e5239fad6d0c641bfab98a98' />
 <meta name="msvalidate.01" content="351CDD8671A68F8F2A8EB97EF595F634" />
 <link rel="icon" href="http://addscripts.ru/favicon.ico" type="image/x-icon">
+<meta name="description" content="<?php single_post_title("");?>"> <!-- добавление в описание description значение в теге h1-->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
