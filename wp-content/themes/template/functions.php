@@ -138,4 +138,16 @@ add_filter( 'document_title_parts', function( $parts ){
 		unset($parts['site']);
 	return $parts;
 });
+
+//значение тега description
+function for_description(){
+if (is_front_page()){//если главная страница
+  echo "Подсказки на компьютерную тематику";
+}
+else if(is_category()){//если выбрана одна из категорий
+  echo wp_get_document_title();
+}
+else single_post_title("");  //если открыт какой-нибудь пост
+}
+
 ?>
