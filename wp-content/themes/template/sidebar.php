@@ -35,7 +35,7 @@ wp_nav_menu( array(
 ) );
 ?>
 
-<div class="fixed-bottom position-absolute border-top">
+<div class="fixed-bottom position-relative border-top">
 	<h4 class="text-center text-secondary">Наш партнер:</h4>
 <!-- Партнер volgaplastic-a.ru -->
 <a href="http://volgaplastic-a.ru/"   class="d-flex justify-content-center"><img src="/wp-content/themes/template/partnerssymbols/lodka.png" alt="изготовление лодок в Астрахани" title="Производство пластиковых лодок в Астрахани" height="31" width="88"></a>
